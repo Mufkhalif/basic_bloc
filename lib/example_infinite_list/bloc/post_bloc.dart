@@ -36,8 +36,7 @@ class PostBloc extends Bloc<PostEvent, PostState> {
       }
 
       final posts = await _fetchPosts(state.posts.length);
-      print("fetching more");
-      print(posts);
+
       return posts.isEmpty
           ? state.copyWith(hasReachedMax: true)
           : state.copyWith(
