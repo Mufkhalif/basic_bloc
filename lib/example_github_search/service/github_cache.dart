@@ -1,4 +1,4 @@
-import 'models/search_result.dart';
+import 'package:learn_bloc/example_github_search/models/search_result.dart';
 
 class GithubCache {
   final _cache = <String, SearchResult>{};

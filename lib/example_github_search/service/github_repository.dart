@@ -1,6 +1,6 @@
+import 'package:learn_bloc/example_github_search/models/search_result.dart';
 import 'github_cache.dart';
 import 'github_client.dart';
-import 'models/search_result.dart';
 
 class GithubRepository {
   const GithubRepository(this.cache, this.client);
